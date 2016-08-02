@@ -24,9 +24,6 @@
 </ATTR_VARA>
 <VARA state="1">
 <Variables>
-<row Name="Action.Builder.Exported" Value="2016-06-12T20:50:32+0200" Value1="" Value2="" Value3="" Value4=""/>
-<row Name="Action.Builder.Library" Value="1.0.0" Value1="" Value2="" Value3="" Value4=""/>
-<row Name="Action.Builder.Version" Value="1.0.0" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="Categories" Value="Database Server, Template" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="Company" Value="Automic" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="Dependencies" Value="PCK.AUTOMIC_ORACLE_DB ~&gt; 1.0, PCK.AUTOMIC_FILESYSTEM ~&gt; 1.1" Value1="" Value2="" Value3="" Value4=""/>
