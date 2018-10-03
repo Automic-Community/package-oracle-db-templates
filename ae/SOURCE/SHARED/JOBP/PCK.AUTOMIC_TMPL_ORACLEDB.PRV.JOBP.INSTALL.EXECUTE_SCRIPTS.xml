@@ -27,6 +27,7 @@
 <DeactDelay>0</DeactDelay>
 <ActAtRun>1</ActAtRun>
 <UC4Priority>0</UC4Priority>
+<PassPriority>0</PassPriority>
 <MaxParallel2>0</MaxParallel2>
 <ReuseHG>1</ReuseHG>
 <MpElse1>0</MpElse1>
@@ -65,7 +66,7 @@
 <ForEach publish_name="&amp;ITEM#" source_name="&amp;FF_SEARCH_RESULT#" source_prompt="0" source_vara="1" source_vara_column="3"/>
 </task>
 <task Alias="" BranchType="1" Col="2" Lnr="2" OType="JOBP" Object="PCK.AUTOMIC_JDBC.PUB.ACTION.EXECUTE_SQL_SCRIPT" ParentAlias="" ParentObject="" Row="1" Text2="">
-<checkpoint RollbackFlag="1" RunPerPatch="0" RunPerTarget="0" TcpADays="0" TcpATime="00:00" TcpATimeTZ="" TcpExecute="" TcpOn="0" promptatgen="0" showprompt="0"/>
+<checkpoint RollbackFlag="0" RunPerPatch="0" RunPerTarget="0" TcpADays="0" TcpATime="00:00" TcpATimeTZ="" TcpExecute="" TcpOn="0" promptatgen="0" showprompt="0"/>
 <after ActFlg="1" AtimOn="0" ErlstStDays="0" ErlstStTime="00:00" ErlstStTimeTZ="" HoldFlg="0"/>
 <when ChkWhenExec="0" LtstEnd="0" LtstEndDays="0" LtstEndTime="00:00" LtstSt="0" LtstStDays="0" LtstStTime="00:00" LtstTimeTZ="" WCTypeAND="1" WCTypeOR="0" WElseA="0" WElseH="1" WElseS="0" WElseX="0" WhenExecute="" WtimOn="0"/>
 <preconditions>
@@ -104,6 +105,7 @@
 <UC4RB_DB_DRIVER_JARs.00 ReadFromTable="JPPV" altview="1" haslist="0" msginsert="" msgnr="" promptname="UC4RB_DB_DRIVER_JAR#" promptsetname="PCK.AUTOMIC_JDBC.PRV.PROMPTSET.EXECUTE_SQL_SCRIPT">&amp;DB_DRIVER_JAR#</UC4RB_DB_DRIVER_JARs.00>
 <UC4RB_DB_JDBC_CONNs.00 ReadFromTable="JPPV" altview="1" haslist="0" msginsert="" msgnr="" promptname="UC4RB_DB_JDBC_CONN#" promptsetname="PCK.AUTOMIC_JDBC.PRV.PROMPTSET.EXECUTE_SQL_SCRIPT">&amp;DB_JDBC_CONN#</UC4RB_DB_JDBC_CONNs.00>
 <UC4RB_DB_PASSWORDs.00 ReadFromTable="JPPV" altview="1" haslist="0" msginsert="" msgnr="" promptname="UC4RB_DB_PASSWORD#" promptsetname="PCK.AUTOMIC_JDBC.PRV.PROMPTSET.EXECUTE_SQL_SCRIPT">&amp;DB_PASSWORD#</UC4RB_DB_PASSWORDs.00>
+<UC4RB_DB_SCRIPT_ORDERs.00 ReadFromTable="JPPV" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_DB_SCRIPT_ORDER#" promptsetname="PCK.AUTOMIC_JDBC.PRV.PROMPTSET.EXECUTE_SQL_SCRIPT">FILE_NAME_ASC</UC4RB_DB_SCRIPT_ORDERs.00>
 <UC4RB_DB_SCRIPT_SEPRs.00 ReadFromTable="JPPV" altview="1" haslist="0" msginsert="" msgnr="" promptname="UC4RB_DB_SCRIPT_SEPR#" promptsetname="PCK.AUTOMIC_JDBC.PRV.PROMPTSET.EXECUTE_SQL_SCRIPT">&amp;DB_SCRIPT_SEPR#</UC4RB_DB_SCRIPT_SEPRs.00>
 <UC4RB_DB_SCRIPT_URIs.00 ReadFromTable="JPPV" altview="1" haslist="0" msginsert="" msgnr="" promptname="UC4RB_DB_SCRIPT_URI#" promptsetname="PCK.AUTOMIC_JDBC.PRV.PROMPTSET.EXECUTE_SQL_SCRIPT">&amp;ITEM#</UC4RB_DB_SCRIPT_URIs.00>
 <UC4RB_DB_TNSNAMES_ORAs.00 ReadFromTable="JPPV" altview="1" haslist="0" msginsert="" msgnr="" promptname="UC4RB_DB_TNSNAMES_ORA#" promptsetname="PCK.AUTOMIC_JDBC.PRV.PROMPTSET.EXECUTE_SQL_SCRIPT">&amp;DB_TNSNAMES_ORA#</UC4RB_DB_TNSNAMES_ORAs.00>
