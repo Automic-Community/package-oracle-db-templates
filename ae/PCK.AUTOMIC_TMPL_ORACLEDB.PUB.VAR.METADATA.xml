@@ -27,7 +27,7 @@
 <row Name="Build Number" Value="1157" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="Categories" Value="Database Server, Template" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="Company" Value="Automic" Value1="" Value2="" Value3="" Value4=""/>
-<row Name="Dependencies" Value="PCK.AUTOMIC_ORACLE_DB ~&gt; 1.0, PCK.AUTOMIC_JDBC ~&gt; 1.3, PCK.AUTOMIC_FILESYSTEM ~&gt; 1.2, PCK.AUTOMIC_BOND ~&gt; 1.2" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Dependencies" Value="PCK.AUTOMIC_ORACLE_DB ~&gt; 1.0, PCK.AUTOMIC_JDBC ~&gt; 1.3, PCK.AUTOMIC_FILESYSTEM ~&gt; 1.2, PCK.AUTOMIC_BOND &gt; 1.2" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="Description" Value="" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="Homepage" Value="www.automic.com" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="License" Value="" Value1="" Value2="" Value3="" Value4=""/>
