@@ -19,16 +19,13 @@ A predefined deployment workflow that complements the [Oracle Action Pack](https
 4. Automic FileSystem Pack should be installed.
 5. Automic JDBC Pack should be installed.
 6. Automic Oracle DB Pack should be installed.
-7. Maven
-
 
 
 ###### Steps to install action pack source code:
 
 1. Clone the code to your machine.
 2. Go to the package directory.
-3. Run the maven command 'mvn clean package' inside the directory containing the pom.xml file.(source/tools/)
-4. Run the command apm upload in the directory which contains package.yml (source/):
+3. Run the command apm upload in the directory which contains package.yml (source/):
    Ex. apm upload -force -u <Name>/<Department> -c <Client-id> -H <Host> -pw <Password> -S AUTOMIC -y -ia -ru
 
 
